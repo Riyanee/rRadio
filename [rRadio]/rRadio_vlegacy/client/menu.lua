@@ -91,7 +91,7 @@ MenuRadio = function()
     end)
 end
 
-Keys.Register("F9", 'MenuRadio', 'Menu Radio', function()
+Keys.Register(Config.Menu.KeyToOpenMenu, 'MenuRadio', 'Menu Radio', function()
 	if open then 
 		return
 	else
